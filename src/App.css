@@ -1,0 +1,129 @@
+.App {
+  text-align: center;
+  align-items: center;
+}
+
+.Header {
+  margin-top: 3rem;
+}
+
+.Header-text {
+  font-weight: lighter;
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+.Input {
+  align-self: center;
+  height: 46px;
+  flex: 1;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+
+.Input-area {
+  height: 40px;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-right: 0px;
+  padding-left: 5px;
+  outline: none;
+}
+
+.Button {
+  border: none;
+  color: white;
+  padding-left: 14px;
+  padding-top: 14px;
+  padding-right: 14px;
+  padding-bottom: 14px;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 0 13px 0;
+  font-size: 16px;
+}
+
+ul {
+  list-style-type: none;
+  width: 424px;
+  display: inline-block;
+  padding-left: 0px;
+}
+
+.Checkbox {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  -ms-appearance: none;
+  -o-appearance: none;
+  appearance: none;
+  height: 100%;
+  min-height: 40px;
+  width: 40px;
+  transition: all 0.15s ease-out 0s;
+  background: #cbd1d8;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 0 0;
+  outline: none;
+  position: relative;
+  z-index: 1000;
+}
+
+.Checkbox:hover {
+  background: #9faab7;
+}
+
+.Checkbox:checked {
+  background: #40e0d0;
+}
+
+.Checkbox:checked::before {
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  content: '✔';
+  font-size: 26.66667px;
+  text-align: center;
+  line-height: 40px;
+}
+
+li {
+  height: 100%;
+  text-align: start;
+  border: solid 1px silver;
+  margin-bottom: 3px;
+  display: flex;
+}
+
+.Listtext {
+  width: 334px;
+  margin: 9px 0 3px 10px;
+  position: relative;
+  vertical-align: middle;
+  font-weight: 300;
+  font-size: 20px;
+  color: black;
+  word-wrap: break-word;
+}
+
+.Footer {
+  width: 412px;
+  margin: 0 0 0 0;
+  padding: 5px 5px 5px 5px;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px silver;
+}
+
+.Footer-text {
+  margin: 0 0 0 0;
+  text-align: left;
+  width: 200px;
+  flex-wrap: nowrap;
+}
+
+.done {
+  text-decoration: line-through;
+  color: gray;
+}
