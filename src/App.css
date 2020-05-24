@@ -30,6 +30,18 @@
   outline: none;
 }
 
+.Delete {
+  border: none;
+  color: white;
+  padding: 5px 14px 5px 14px;
+  margin: 5px 5px 5px 0;
+  font-size: 16px;
+}
+
+.Delete :hover{
+  color: red;
+}
+
 .Button {
   border: none;
   color: white;
@@ -97,14 +109,18 @@ li {
 }
 
 .Listtext {
-  width: 334px;
-  margin: 9px 0 3px 10px;
+  width: 324px;
+  margin: 9px 0 7px 10px;
   position: relative;
   vertical-align: middle;
   font-weight: 300;
   font-size: 20px;
   color: black;
   word-wrap: break-word;
+}
+.done {
+  text-decoration: line-through;
+  color: gray;
 }
 
 .Footer {
@@ -114,16 +130,29 @@ li {
   margin-left: auto;
   margin-right: auto;
   border: solid 1px silver;
+  flex: 1;
+  flex-direction: row;
+  display: flex;
 }
 
 .Footer-text {
   margin: 0 0 0 0;
   text-align: left;
-  width: 200px;
+  width: 150px;
   flex-wrap: nowrap;
 }
 
-.done {
-  text-decoration: line-through;
-  color: gray;
+.All {
+  width: 50px;
+  display: inline;
+  margin: 0 5px 0 0;
+  border: solid 1px silver;
 }
+
+.Completed {
+  width: 75px;
+  display: inline;
+  margin: 0 5px 0 0;
+  border: solid 1px silver;
+}
+
