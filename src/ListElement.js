@@ -4,7 +4,7 @@ export default function ListElement({text, id, onChange, onClick, check}){
 
     const classes = ['Listtext']
     var checker = false
-    if(check){
+    if(check === 'true'){
         classes.push('done')
         checker = true
     }
