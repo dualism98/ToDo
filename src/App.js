@@ -74,6 +74,9 @@ class App extends React.Component {
   ChangeMode(mode){
     this.setState({ mode: mode})
     if (mode === 3){
+      for (let i = 0; i < this.state.todos.length; i++){
+        localStorage.removeItem(this.state.todos[i][0])
+      }
       this.setState({todos: [], mode: 0 })
     }
   }
